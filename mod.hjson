@@ -7,7 +7,7 @@ name: "MindustryDatabaseExt"
 author: "BlackDeluxeCat"
 main: "de.MindustryDatabaseExt"
 description: "Modify database."
-version: 0.1
+version: 0.2
 minGameVersion: 145
 java: true
 hidden: true

@@ -37,8 +37,8 @@ public class MindustryDatabaseExt extends Mod{
             unit.stats.add(targetAir, unit.targetAir);
             unit.stats.add(targetGround, unit.targetGround);
             if(unit.targetFlags != null){
-                for(var flag : unit.targetFlags){
-                    if(flag != null) unit.stats.add(targetFlags, flag.name());
+                for(BlockFlag flag : unit.targetFlags){
+                    if(flag != null) unit.stats.add(targetFlags, Core.bundle.get(flag.name()));
                 }
             }
         });
